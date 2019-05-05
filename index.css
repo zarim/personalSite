@@ -46,6 +46,8 @@ iframe {
     background-color: #545E75;
     margin: 4%  auto;
     display: flex;
+    outline-offset: 10px;
+    outline: dashed 1px black;
 }
 
 .menu {
@@ -63,6 +65,7 @@ iframe {
 #img1 {
     height: 700px;
     margin: 5%;
+    z-index: 1;
 }
 
 .about {
@@ -87,7 +90,7 @@ iframe {
 }
 
 #intro a:hover {
-    font-size: 35px;
+    font-size: 32px;
     color: lightgray;
 }
 
@@ -104,11 +107,14 @@ iframe {
     margin: 4%  auto;
     display: flex;
     position: relative;
+    outline-offset: 10px;
+    outline: dashed 1px black;
 }
 
 #spelman {
     height: 700px;
     margin: 5% 5% 0 0;
+    z-index: 1;
 }
 
 #student {
@@ -131,12 +137,15 @@ iframe {
     background-color: #304D6D;
     margin: 4%  auto;
     display: flex;
+    outline-offset: 10px;
+    outline: dashed 1px black;
 }
 
 #developer {
     width: 50%;
     height: 700px;
     margin: 5%;
+    z-index: 1;
 }
 
 #developer-info {
@@ -153,17 +162,30 @@ iframe {
     margin: 3% auto;
 }
 
+.author a {
+    text-decoration: none;
+    color: white;
+}
+
+#book-link a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .author-box {
     width: 1000px;
     height: 700px;
     background-color: #82A0BC;
     margin: 4%  auto;
     display: flex;
+    outline-offset: 10px;
+    outline: dashed 1px black;
 }
 
 #book {
     height: 700px;
     margin: 5% 5% 0 0;
+    z-index: 1;
 }
 
 #author-info {
@@ -198,12 +220,15 @@ iframe {
     background-color: #068D9D;
     margin: 4%  auto;
     display: flex;
+    outline-offset: 10px;
+    outline: dashed 1px black;
 }
 
 #travel {
     height: 700px;
     margin: 5%;
     image-orientation: from-image;
+    z-index: 1;
 }
 
 #travel-info {

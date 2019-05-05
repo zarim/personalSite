@@ -10,10 +10,10 @@ iframe {
     overflow: hidden;
 }
 
-a {
+.menu a,
+.header a {
     text-decoration: none;
     color: #545E75;
-    /* color: black; */
 }
 
 #h1 {
@@ -79,6 +79,16 @@ a {
     font-family: 'Cormorant', italic;
     text-align: center;
     font-size: 30px;
+}
+
+#intro a {
+    text-decoration: none;
+    color: white;
+}
+
+#intro a:hover {
+    font-size: 35px;
+    color: lightgray;
 }
 
 .student {

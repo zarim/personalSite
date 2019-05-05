@@ -1,0 +1,222 @@
+html {
+    padding: 0 2%;
+    background-color: #D8DCFF;
+    /* background-color: #627a9e; */
+    /* background-color: #dee6f2; */
+    /* background-color: #3a4454; */
+    /* background-color: #465163; */
+    /* background-color: #e5e8ff; */
+}
+
+.main-body {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.header {
+    font-family: 'Cormorant', italic;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 3% 0;
+    color: #545E75;
+    /* color: #465163; */
+    /* color: white; */
+}
+
+.box {
+    width: 1000px;
+    height: 700px;
+    /* background-color: #e5e8ff; */
+    /* background-color: #465163; */
+    /* background-color: white; */
+    background-color: #545E75;
+    margin: 4%  auto;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    color: #545E75;
+    /* color: #465163; */
+    font-family: 'Cormorant', 'semi-bold 600 italic';
+    margin: 5% auto;
+    width: 60%;
+    /* padding: 0 10%; */
+    /* text-align: center; */
+}
+
+.menu-item {
+    margin: auto;
+}
+
+#img1 {
+    height: 700px;
+    margin: 5%;
+}
+
+.about {
+    margin: auto;
+    color: white;
+}
+
+#intro-title {
+    font-family: 'Cormorant', italic;
+    font-size: 50px;
+}
+
+#intro {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 30px;
+}
+
+.student {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.student-box {
+    width: 1000px;
+    height: 700px;
+    /* background-color: #e5e8ff; */
+    /* background-color: #465163; */
+    /* background-color: white; */
+    background-color: #63ADF2;
+    margin: 4%  auto;
+    display: flex;
+    position: relative;
+}
+
+#spelman {
+    height: 700px;
+    margin: 5% 5% 0 0;
+}
+
+#student {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 25px;
+    margin: 5%;
+    padding: 4%;
+}
+
+.developer {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.developer-box {
+    width: 1000px;
+    height: 700px;
+    background-color: #304D6D;
+    margin: 4%  auto;
+    display: flex;
+}
+
+#developer {
+    width: 50%;
+    height: 700px;
+    margin: 5%;
+}
+
+#developer-info {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 25px;
+    margin: 5%;
+    padding: 4%;
+}
+
+.author {
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+    margin: 3% auto;
+}
+
+.author-box {
+    width: 1000px;
+    height: 700px;
+    /* background-color: #e5e8ff; */
+    /* background-color: #465163; */
+    /* background-color: white; */
+    /* background-color: #545E75; */
+    background-color: #82A0BC;
+    margin: 4%  auto;
+    display: flex;
+}
+
+#book {
+    height: 700px;
+    margin: 5% 5% 0 0;
+}
+
+#author-info {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 25px;
+    margin: 5%;
+    padding: 4%;
+}
+
+#author-info a:link {
+    color: none;
+}
+
+#author-info a:visited {
+    color: none;
+}
+
+#author-info a:active {
+    color: none;
+}
+
+.traveler {
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+    margin: 3% auto;
+}
+
+.traveler-box {
+    width: 1000px;
+    height: 700px;
+    /* background-color: #e5e8ff; */
+    /* background-color: #465163; */
+    /* background-color: white; */
+    /* background-color: #545E75; */
+    background-color: #068D9D;
+    margin: 4%  auto;
+    display: flex;
+}
+
+#travel {
+    height: 700px;
+    margin: 5%;
+    image-orientation: from-image;
+}
+
+#travel-info {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 25px;
+    margin: 5%;
+    padding: 4%;
+}
+
+#travel-info-title {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 25px;
+}
+
+#places {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 18px;
+    margin: 5%;
+ }

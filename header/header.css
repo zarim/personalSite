@@ -1,6 +1,23 @@
-.container {
-    background-color: darkgrey;
-    width: 100%;
-    height: 100px;
+body {
     overflow: hidden;
+}
+.header {
+    font-family: 'Cormorant', italic;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 3% 0;
+    color: #545E75;
+}
+
+.menu {
+    display: flex;
+    color: #545E75;
+    font-family: 'Cormorant', 'semi-bold 600 italic';
+    margin: 5% auto;
+    width: 60%;
+}
+
+.menu-item {
+    margin: auto;
 }

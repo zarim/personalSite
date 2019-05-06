@@ -1,11 +1,13 @@
 html {
     padding: 0 2%;
-    background-color: #D8DCFF;
+    background-color: #f2f4ff;
+    /* background-color: #D8DCFF; */
 }
 
 a {
     text-decoration: none;
-    color: #545E75;
+    color: darkslategray;
+    /* color: #545E75; */
     /* color: black; */
 }
 
@@ -15,6 +17,11 @@ a {
     font-size: 35px;
     text-decoration: underline;
     font-weight: bold;
+}
+
+.about {
+    margin: auto;
+    /* color: white; */
 }
 
 .main-body {
@@ -44,3 +51,242 @@ a {
 .menu-item {
     margin: auto;
 }
+
+.info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.education {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+    /* position: absolute; */
+}
+
+.education-box {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: aquamarine;
+    /* margin: 0 3%; */
+    margin: 4%  auto;
+    display: flex;
+    position: relative;
+    padding: 1%;
+}
+
+.education-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.education-box:hover .education-overlay {
+    opacity: 1;
+}
+
+.images {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.info {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 10px 0;
+}
+
+#education-info-header {
+    text-decoration: underline;
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 20px;
+    margin: 1%;
+    padding: 3%;
+}
+
+#education-info {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px;
+    /* padding: 4%; */
+}
+
+#logo {
+    height: 150px;
+    margin: 7%;
+}
+
+.experience {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.experience-box {
+    display: flex;
+    width: 1000px;
+    height: 500px; 
+    background-color: peachpuff;
+    /* margin: 0 3%; */
+    margin: auto;
+    padding: 1%;
+    position: relative;
+}
+
+.experience-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-box:hover .experience-overlay {
+    opacity: 1;
+}
+
+.experience-images {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.experience-info {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 5% 0 0 1%;
+}
+
+#experience-info-header {
+    text-decoration: underline;
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 20px;
+    margin: 1%;
+    /* padding: 1%; */
+}
+
+#experience-info-content {
+    font-family: 'Cormorant', italic;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px;
+}
+
+#experience-logo {
+    margin: 7%;
+    width: 175px;
+}
+
+#microsoft {
+    height: 500px;
+}
+
+.skills {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.skills-box {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: coral;
+    /* margin: 0 3%; */
+    padding: 1%;
+    margin: auto;
+    position: relative;
+}
+
+.skills-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-box:hover .skills-overlay {
+    opacity: 1;
+}
+
+.skills-images {
+    margin: auto;
+    width: 80%;
+}
+
+#skills-logo {
+    height: 150px;
+    margin: 5%;
+}
+
+.extra {
+    width: 100%;
+    height: 100%;
+    margin: 3% auto;
+}
+
+.extra-box {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: paleturquoise;
+    /* float: right; */
+    padding: 1%;
+    margin: auto;
+    position: relative;
+}
+
+.extra-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.extra-box:hover .extra-overlay {
+    opacity: 1;
+}
+
+

@@ -1,6 +1,8 @@
 html {
     padding: 0 2%;
-    background-color: #D8DCFF;
+    background-color: #f2f4ff;
+    /* background-color: #747891; */
+    /* background-color: #D8DCFF; */
 }
 
 iframe {
@@ -13,7 +15,12 @@ iframe {
 .menu a,
 .header a {
     text-decoration: none;
-    color: #545E75;
+    color: darkslategray;
+    /* color: #545E75; */
+}
+
+.menu-item a:visited {
+    text-decoration: underline;
 }
 
 #h1 {

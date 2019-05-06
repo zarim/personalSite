@@ -1,11 +1,13 @@
 html {
     padding: 0 2%;
-    background-color: #D8DCFF;
+    background-color: #f2f4ff;
+    /* background-color: #D8DCFF; */
 }
 
 a {
     text-decoration: none;
-    color: #545E75;
+    color:darkslategray;
+    /* color: #545E75; */
     /* color: black; */
 }
 

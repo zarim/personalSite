@@ -1,11 +1,13 @@
 html {
     padding: 0 2%;
-    background-color: #D8DCFF;
+    background-color: #f2f4ff;
+    /* background-color: #D8DCFF; */
 }
 
 a {
     text-decoration: none;
-    color: #545E75;
+    color: darkslategray;
+    /* color: #545E75; */
     /* color: black; */
 }
 
@@ -42,5 +44,33 @@ a {
 }
 
 .menu-item {
+    margin: auto;
+}
+
+.social-media {
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+.social-media a:hover {
+    -webkit-filter: drop-shadow(10px black);
+    filter: drop-shadow(10px black);
+}
+
+#img {
+    background: transparent no-repeat 0 0;
+    height: 30px;
+    margin: auto;
+}
+
+#img:hover {
+    -webkit-filter: drop-shadow(10px black);
+    filter: drop-shadow(10px black);
+}
+
+#img1 {
+    background: transparent no-repeat 0 0;
+    height: 30px;
     margin: auto;
 }
